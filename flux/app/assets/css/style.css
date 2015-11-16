@@ -1,0 +1,110 @@
+/* -------------------------------------------------------------------------- */
+
+a {
+	text-decoration: none;
+}
+
+.my-element {
+	background-color: #1589FF;
+	min-width: 55px;
+	min-height: 55px;
+	border-radius: 3px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.hours, .minutes, .seconds {
+	float: left;
+	font-size: 32px;
+	padding: 20px;
+}
+
+.hours {
+	color: #333;
+}
+
+.minutes {
+	color: #666;
+}
+
+.seconds {
+	color: #999;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.card {
+	padding: 20px 0 20px 20px;
+	background-color: #CCC;
+	max-width: 220px;
+	max-height: 220px;
+	border-radius: 6px;
+}
+
+.card__row {
+	min-width: 200px;
+	margin-bottom: 6px;
+}
+
+.card__info--avatar {
+	display: inline-block;
+	overflow: hidden;
+	line-height: 1;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+
+.card__info--username {
+	font-size: 18px;
+	color: #666;
+}
+
+.card__info--username:hover {
+	color: #000;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.unlike {
+	-moz-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	transform: scaleY(-1);
+	-ms-filter: flipv;
+	filter: flipv;
+}
+
+.like {
+	-moz-transform: scaleY(1);
+	-webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	transform: scaleY(1);
+	-ms-filter: flipv;
+	filter: flipv;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.input {
+	color: #FFC0CB;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 260px;
+	border: 1px solid #1589FF;
+	transition: border 400ms ease;
+	outline: 0;
+}
+
+.input:focus {
+	border: 1px solid #FFC0CB;
+	color: #157DEC;
+}
+
+.output {
+	color: #333;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 260px;
+}
+
+/* -------------------------------------------------------------------------- */

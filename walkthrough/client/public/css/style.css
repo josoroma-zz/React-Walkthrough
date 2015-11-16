@@ -1,0 +1,159 @@
+/* -------------------------------------------------------------------------- */
+
+html {
+	font-size: 11px;
+}
+
+body {
+	background-color: #000;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 80px 20px;
+	padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.center-container {
+	background-color: #fff;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+
+	width: 320px;
+	padding: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	color: #222;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: .66em;
+	margin-top: 0;
+}
+
+h1 {
+	background: #000;
+	padding: 15px;
+	border-radius: 3px;
+	color: #00d8ff;
+	font-size: 14px;
+}
+
+h2 {
+	background: #ddfaff;
+	padding: 15px;
+	border-radius: 3px;
+	color: #000;
+	font-size: 14px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+/* -------------------------------------------------------------------------- */
+
+li {
+	padding: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+a {
+	color: #57A3E8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CC0000;
+}
+
+/* -------------------------------------------------------------------------- */
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+	border-radius: 3px;
+  margin: 10px 10px;
+	margin-top: 20px;
+  padding: 10px 10px;
+	padding-bottom: 35px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+blockquote strong {
+  float: right;
+	padding-top: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.unlike {
+	-moz-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	transform: scaleY(-1);
+	-ms-filter: flipv;
+	filter: flipv;
+}
+
+.like {
+	-moz-transform: scaleY(1);
+	-webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	transform: scaleY(1);
+	-ms-filter: flipv;
+	filter: flipv;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+
+.square {
+	width: 50%;
+	height: 100px;
+	background: red;
+}
+
+.rectangle {
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+
+.button {
+	margin-top: 20px;
+}
+
+img.button {
+	margin-bottom: 20px;
+}
+
+.checkbox {
+	margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------------------- */

@@ -1,0 +1,56 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "body": "JavaScript is a high level, dynamic, untyped, and interpreted programming language.",
+      "author": "community"
+    },
+    {
+      "id": 2,
+      "title": "jQuery",
+      "body": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.",
+      "author": "community"
+    },
+    {
+      "id": 3,
+      "title": "Angular",
+      "body": "Angular is an open-source web application framework maintained by Google and by a community of individual developers and corporations to address many of the challenges encountered in developing single-page applications.",
+      "author": "community"
+    },
+    {
+      "id": 4,
+      "title": "Node",
+      "body": "Node.js is an open-source, cross-platform runtime environment for developing server-side web applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, NonStop, IBM AIX, IBM System z and IBM i. Its work is hosted and supported by the Node.js Foundation, a collaborative project at Linux Foundation.",
+      "author": "community"
+    },
+    {
+      "id": 5,
+      "title": "Meteor",
+      "body": "Meteor, or MeteorJS is an open-source JavaScript web application framework written using Node.js. Meteor allows for rapid prototyping and produces cross-platform (web, Android, iOS) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code.",
+      "author": "community"
+    },
+    {
+      "id": 6,
+      "title": "Babel",
+      "body": "Babel is a JavaScript compiler. Use next generation JavaScript, today.",
+      "author": "community"
+    },
+    {
+      "id": 7,
+      "title": "React",
+      "body": "React is an open-source JavaScript library for creating user interfaces that aims to address challenges encountered in developing single-page applications. It is maintained by Facebook, Instagram and a community of individual developers and corporations.",
+      "author": "community"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "How do you structure JavaScript using the Module Pattern?",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "community"
+  }
+}

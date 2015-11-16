@@ -1,0 +1,18 @@
+{
+  "stage": 2,
+  "optional": ["es7.classProperties"],
+  "env": {
+    "development": {
+      "plugins": ["react-transform"],
+      "extra": {
+        "react-transform": {
+          "transforms": [{
+            "transform": "react-transform-hmr",
+            "imports": ["react"],
+            "locals": ["module"]
+          }]
+        }
+      }
+    }
+  }
+}

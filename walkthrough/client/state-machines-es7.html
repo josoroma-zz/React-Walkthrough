@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="josoroma">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactivity and Dynamic UIs</title>
+</head>
+<body>
+  <div class="center-container">
+    <div id="button-like"></div>
+
+    <h2>Event Delegation</h2>
+    <blockquote>
+        <p>
+          When React starts up, it starts listening for all events at the top level using a single event listener. When a component is mounted or unmounted, the event handlers are simply added or removed from an internal mapping. When an event occurs, React knows how to dispatch it using this mapping. When there are no event handlers left in the mapping, React's event handlers are simple no-ops.
+          </br><strong>Facebook</strong>
+        </p>
+    </blockquote>
+
+    <h2>State Initialization</h2>
+    <blockquote>
+        <p>
+          The React team decided a more idiomatic way of initializing state was simply to store it in an instance variable setup in the constructor. This means we can refactor away our `getInitialState` method by moving its return value to be assigned to the `this.state` instance variable in our class' constructor.
+        </br><strong>Kris Jordan</strong>
+        </p>
+    </blockquote>
+
+  </div>
+</body>
+</html>
